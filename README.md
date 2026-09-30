@@ -212,19 +212,9 @@ pytest
 
 ---
 
-## Visual Examples From the Original Analysis
+## Visual Outputs
 
-### Welding spectrogram
-
-![Welding spectrogram](results/welding-file-spectrogram/welding-file1-spectrogram.png)
-
-### Signal comparison output
-
-![Signal comparison](results/new-data-output/comparison/001.png)
-
-### Zero-crossing analysis
-
-![Zero-crossing analysis](results/zero-crossing-rate/Figure_1.png)
+The repository retains the original spectrogram, comparison and zero-crossing outputs under `results/`. The reproducible pipeline additionally generates `outputs/plots/anomaly_timeline.png` and `outputs/plots/pca_feature_space.png` when run locally.
 
 ---
 
